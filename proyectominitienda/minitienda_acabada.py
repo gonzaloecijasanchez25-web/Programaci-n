@@ -24,6 +24,9 @@ venta = {}
 producto = {}
 usuario = {}
 items = []
+carrito_actual = []
+usuario_activo = None
+ventas = []
 
 #funciones arituclos
 from funciones_articulos import generar_id, leer_float, crear_articulo, listar_articulos, buscar_articulo_por_id, actualizar_articulo, eliminar_articulo, alternar_activo

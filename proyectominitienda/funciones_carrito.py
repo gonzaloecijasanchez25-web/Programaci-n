@@ -1,3 +1,7 @@
+carrito_actual = []
+usuario_activo = None
+ventas = []
+
 def ven_seleccionar_usuario(usuarios, usuario_activo):
     print(usr_listar(usuarios))
     id_usuario = int(input("Introduce el ID del usuario activo: "))
